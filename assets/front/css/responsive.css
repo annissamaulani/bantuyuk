@@ -1,0 +1,47 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+@media (min-width: 320px) and (max-width: 480px) {
+	body, html{
+		overflow-x: hidden;
+	}
+	.font-xl{font-size: 40px;}
+	.font-lg{font-size: 24px;}
+	.font-md{font-size: 16px;}
+	.font-sm{font-size: 14px;}
+	.font-xs{font-size: 12px;}
+	.section{
+		width: 90vw;
+		margin: auto;
+	}
+	
+
+	#footer div{
+		text-align: center;
+		padding: 5px;
+		margin-bottom: 0px;
+	}
+	#footer div.col-md-5{
+		margin-bottom: 20px;
+	}
+	#footer .col-md-5 p{
+		padding: 5px !important;
+		margin: 0px;
+	}
+	#footer .line{
+		margin: auto;
+		width: 85px;
+	}
+	.detail-header{
+		display: none;
+	}
+	#detail{
+		margin-top: 70px;
+	}
+	#detail .btn-sm{
+		margin-bottom: 10px;
+	}
+	#detail form{
+		margin-top: 20px;
+	}
+}	
